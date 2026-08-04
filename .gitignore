@@ -1,11 +1,32 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
+# Environment variables (API Keys, Secrets)
 .env
+*.env
+
+# Python / Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+/opt/venv/
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code & Dev Containers
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.devcontainer/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Project Data / Cache
+*.log
+*.pkl
+*.sqlite3
